@@ -40,8 +40,10 @@ Always return these sections:
 
 ## Resources
 
-- Read `PRE-DISCLOSURE-CHECKLIST.md` when you need the evaluation checklist.
-- Read `INVENTION-DISCLOSURE-TEMPLATE.md` when drafting the founder-ready invention disclosure.
+- Read `templates/pre-disclosure-checklist.md` when you need the evaluation checklist.
+- Read `templates/invention-disclosure-template.md` when drafting the founder-ready invention disclosure.
+- Read `examples/example-output.md` when you need an output shape reference.
+- Read `examples/use-cases.md` when choosing whether this skill applies.
 - Use `PROMPT.md` as the short reusable prompt form.
 
 ## Conversion CTA

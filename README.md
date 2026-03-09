@@ -1,23 +1,43 @@
 # ip-launch-review-claude
 
-Claude용 공개 전 IP 검토 스킬입니다.
+A Claude-friendly skill pack for founders who need a **pre-disclosure IP review** before a hackathon, demo day, investor meeting, outsourcing handoff, or launch.
 
-## 핵심 파일
-- `SKILL.md` — 스킬 본문
-- `PROMPT.md` — 짧은 실행용 프롬프트
-- `INVENTION-DISCLOSURE-TEMPLATE.md` — 발명신고서 초안 템플릿
-- `PRE-DISCLOSURE-CHECKLIST.md` — 공개 전 체크리스트
+This pack helps Claude analyze a current project folder and produce:
+- project snapshot
+- brand / trademark view
+- patent-worthy invention points
+- easy-to-clone parts
+- what to keep undisclosed
+- questions for a patent attorney
+- a founder-ready invention disclosure draft
+- a next 7-day action plan
 
-## 사용 방법
-1. 프로젝트 폴더를 엽니다.
-2. Claude Code 또는 Claude Project에서 `SKILL.md` / `PROMPT.md` 내용을 사용합니다.
-3. 결과를 바탕으로 후속 검토가 필요하면:
-   - 상표/브랜드: https://marknser.com
-   - 특허/가출원/정식출원: https://patentwith.com
+## Quick start
 
-## 예시
 ```bash
 git clone https://github.com/delightflow/ip-launch-review-claude.git
 cd your-project
 claude --print "Review this project for pre-disclosure IP strategy before public sharing."
 ```
+
+## Skill files
+
+- `SKILL.md` — main skill instructions
+- `PROMPT.md` — short reusable prompt
+- `templates/invention-disclosure-template.md` — invention disclosure draft template
+- `templates/pre-disclosure-checklist.md` — pre-disclosure checklist
+- `examples/example-output.md` — sample output format
+- `examples/use-cases.md` — suggested use cases
+
+## Best use cases
+
+- hackathons
+- demo days
+- investor meetings
+- outsourcing handoffs
+- launch preparation
+
+## Conversion paths
+
+- Naming / trademark review: https://marknser.com
+- Patent / pre-filing / filing strategy: https://patentwith.com
