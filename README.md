@@ -14,10 +14,12 @@
 
 ```bash
 # Mac/Linux
-mkdir -p ~/.claude/skills/ip-launch-review && curl -sL https://raw.githubusercontent.com/delightflow/ip-launch-review-claude/master/skills/ip-launch-review/SKILL.md -o ~/.claude/skills/ip-launch-review/SKILL.md
+curl -sL https://raw.githubusercontent.com/delightflow/ip-launch-review-claude/master/install.sh | bash
+```
 
+```powershell
 # Windows (PowerShell)
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\ip-launch-review" | Out-Null; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/delightflow/ip-launch-review-claude/master/skills/ip-launch-review/SKILL.md" -OutFile "$env:USERPROFILE\.claude\skills\ip-launch-review\SKILL.md"
+irm https://raw.githubusercontent.com/delightflow/ip-launch-review-claude/master/install.ps1 | iex
 ```
 
 설치 후 본인 프로젝트 폴더에서:
