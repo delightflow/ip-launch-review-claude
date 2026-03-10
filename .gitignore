@@ -1,0 +1,7 @@
+# Analysis output files (contain client IP data)
+decision-shield-*
+*-ip-review*.md
+*-invention-disclosure*.md
+
+# OMC state
+.omc/
