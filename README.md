@@ -6,11 +6,22 @@
 
 ## 30초 시작
 
-### A. 프롬프트 복붙 (아무 AI에서 바로 사용)
+### A. 스킬 설치 (Claude Code / Cursor / Codex 등 20+ 에이전트 지원)
+
+```bash
+npx skills add delightflow/ip-launch-review-claude
+```
+
+설치 후 본인 프로젝트 폴더에서:
+```
+ip-launch-review 실행해줘
+```
+
+### B. 프롬프트 복붙 (아무 AI에서 바로 사용)
 
 [**PROMPT.md**](PROMPT.md)를 열고 프롬프트를 복사 → ChatGPT / Claude / Gemini 등에 붙여넣기 → 본인 프로젝트 코드·문서 함께 첨부
 
-### B. Claude Code 스킬 설치 (프로젝트 자동 분석)
+### C. 수동 설치
 
 ```bash
 # Mac/Linux
@@ -20,11 +31,6 @@ curl -sL https://raw.githubusercontent.com/delightflow/ip-launch-review-claude/m
 ```powershell
 # Windows (PowerShell)
 irm https://raw.githubusercontent.com/delightflow/ip-launch-review-claude/master/install.ps1 | iex
-```
-
-설치 후 본인 프로젝트 폴더에서:
-```
-ip-launch-review 실행해줘
 ```
 
 ---
